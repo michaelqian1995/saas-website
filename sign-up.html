@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Sign-Up</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+</head>
+<body>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner">
+    <div class="masthead grid grid-middle">
+      <div class="logo-center unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+        <h1 class="logo push-0 text-center">
+          <i class="icon i-48"><img src="images/logo_white.png" alt="Cloud Drive"></i>
+          <span class="logo-text giga icon-label text-left">CLOUDDRIVE</span>
+        </h1>
+      </div>
+
+      <div class="nav unit [ xs-1 s-1 m-1-2 l-1-2 ] pad-t-1 pad-b-1">
+        <nav class="wrapper" role="navigation" id="nav" tabindex="0">
+          <ul class="list-group-inline mega push-0 text-center">
+            <li><a class="ib gutter-1-2" href="index.html">Home</a></li>
+            <li><a class="ib gutter-1-2" href="tour.html">Tour</a></li>
+            <li><a class="ib gutter-1-2" href="pricing.html">Price</a></li>
+            <li><a class="ib gutter-1-2" href="sign-up.html">Sign up</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main role="main" id="main" tabindex="0">
+    <section id="banner" tabindex="0">
+      <div class="embed embed-16by9">
+        <img class="embed-item" src="images/atmosphere-blue-cloud.jpg" alt="" aria-details="banner-img">
+
+        <div class="banner-content pin-c max-length gutter text-center">
+          <h2 class="push-1-2 banner-text exa">Choose a Plan That’s Right for Business.</h2>
+          <a class="btn btn-banner bold" href="#">Try Cloud Drive for FREE!</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="background-image">
+      <div class="max-length island">
+        <h2 class="push pad-t unit xs-1 s-1 m-1 l-1 text-center">Sign UP</h2>
+
+        <form class="push-0" method="POST" action="https://formspree.io/michaelqian199@gmail.com">
+          <fieldset>
+            <legend class="bold italic mega push-1-2 unit xs-1 s-1 m-1 l-1">Personal details</legend>
+
+            <div class="grid">
+              <div class="push unit xs-1 s-1 m-1 l-1 pad">
+                <label for="name">Name</label>
+                <input id="name" type="text" name="name" required>
+              </div>
+
+              <div class="push unit xs-1 s-1 m-1 l-1 pad">
+                <label for="age">Age</label>
+                <input id="age" type="number" name="age" required>
+              </div>
+
+              <div class="push unit xs-1 s-1 m-1 l-1 pad">
+                <label for="email">Email</label>
+                <input id="email" type="email" required>
+              </div>
+
+              <div class="push unit xs-1 s-1 m-1 l-1 pad">
+                <label for="password">Password</label>
+                <input id="password" type="password" required>
+              </div>
+
+            </div>
+          </fieldset>
+
+          <div class="push text-center">
+            <button class="btn mega" type="submit">Sign Up Now!</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="footer pad-t-1-2 pad-b-1-2 text-center">
+      <div class="wrapper gutter-1-2">
+        <small class="push-0 micro">Some quotes © <i>Clouddrive Company</i>, 2008.</small>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

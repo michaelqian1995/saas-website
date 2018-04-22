@@ -1,0 +1,70 @@
+html {
+  font-family: Roboto, sans-serif;
+}
+
+.masthead {
+  background-color: #345cf0;
+}
+
+.logo-text {
+  color: white;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn {
+  border-color: #345cf0;
+  background-color: #345cf0;
+  color: #fff;
+}
+
+.banner-text {
+  color: #fff;
+}
+
+.logo-center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav a:hover {
+  background-color: #fff;
+  color: #345cf0;
+}
+
+.blue {
+  background-color: #345cf0;
+  color: #fff;
+}
+
+.nav a:focus {
+  outline: black;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bg-cloud {
+  background-image: url(../images/cloudiness-clouds-cloudy.jpg);
+  background-size: cover;
+  background-color: #e2e2e2;
+}
+
+.bg-cloud-1 {
+  background-image: url(../images/personal.jpg);
+  background-size: cover;
+  background-color: #e2e2e2;
+}
+
+.footer {
+  background-color: white;
+  color: black;
+}
