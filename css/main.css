@@ -48,10 +48,6 @@ html {
   outline: black;
 }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
 .bg-cloud {
   background-image: url(../images/cloudiness-clouds-cloudy.jpg);
   background-size: cover;
