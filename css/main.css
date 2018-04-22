@@ -48,21 +48,7 @@ html {
   outline: black;
 }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
 
-.bg-cloud {
-  background-image: url(../images/cloudiness-clouds-cloudy.jpg);
-  background-size: cover;
-  background-color: #e2e2e2;
-}
-
-.bg-cloud-1 {
-  background-image: url(../images/personal.jpg);
-  background-size: cover;
-  background-color: #e2e2e2;
-}
 
 .footer {
   background-color: white;
